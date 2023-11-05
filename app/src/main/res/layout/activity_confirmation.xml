@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.ConfirmationActivity">
+
+    <TextView
+        android:id="@+id/nameConfimation"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/emailConfirmation"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/phoneConfirmation"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/RoomDetails"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/checkInDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/checkOutDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"/>
+
+
+    <Button
+        android:id="@+id/confirmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="Confirm"
+        android:textSize="16sp" />
+</LinearLayout>

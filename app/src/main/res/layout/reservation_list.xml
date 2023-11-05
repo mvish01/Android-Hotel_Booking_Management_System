@@ -1,0 +1,55 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="12dp">
+
+        <ImageView
+            android:id="@+id/imageViewreservationlist"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+             />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewreservationlist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reservation Information"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewCheckInDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check-in Date" />
+
+        <TextView
+            android:id="@+id/textViewCheckOutDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check-out Date" />
+        <Button
+            android:id="@+id/buttonCancelBooking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel Booking"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
